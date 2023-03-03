@@ -1,0 +1,65 @@
+#ficha-info{
+    .tag-comuna{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+        color: var(--color-neutral-grises-100);
+    }
+
+    .titulo1{
+        color: var(--color-neutral-negro);
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .contenedor-price{
+        margin-bottom: 32px;display: flex;
+        flex-direction: row;
+        align-items: end;
+        justify-content: space-between;
+
+        .tag-price{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.02em;
+            color: var(--color-neutral-grises-100);
+        }
+        .tag-media{
+            display: flex;
+            flex-direction: row;
+            align-items: end;
+            justify-content: space-between;
+
+            svg{
+                margin-left: 6px;
+            }
+
+            .tag-compartir{
+                margin-right: 24px;
+            }
+
+            
+            a{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                text-decoration-line: none !important;
+
+                > span{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 16px;
+                    color: var(--color-neutral-negro) !important;
+                }
+            }
+            
+        }
+    }
+}
