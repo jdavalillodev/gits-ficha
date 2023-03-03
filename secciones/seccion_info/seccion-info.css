@@ -1,0 +1,55 @@
+#ficha-info .tag-comuna {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: var(--color-neutral-grises-100);
+}
+#ficha-info .titulo1 {
+  color: var(--color-neutral-negro);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+}
+#ficha-info .contenedor-price {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+}
+#ficha-info .contenedor-price .tag-price {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: var(--color-neutral-grises-100);
+}
+#ficha-info .contenedor-price .tag-media {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+}
+#ficha-info .contenedor-price .tag-media svg {
+  margin-left: 6px;
+}
+#ficha-info .contenedor-price .tag-media .tag-compartir {
+  margin-right: 24px;
+}
+#ficha-info .contenedor-price .tag-media a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration-line: none !important;
+}
+#ficha-info .contenedor-price .tag-media a > span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--color-neutral-negro) !important;
+}/*# sourceMappingURL=seccion-info.css.map */

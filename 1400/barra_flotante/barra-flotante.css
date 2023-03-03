@@ -1,0 +1,6 @@
+#barra-flotante, .nav-ficha {
+  max-width: 100%;
+}
+#barra-flotante .contenedor-nav, .nav-ficha .contenedor-nav {
+  padding-left: 0;
+}/*# sourceMappingURL=barra-flotante.css.map */

@@ -1,0 +1,23 @@
+@import './secciones/generales_ficha/generales-ficha.scss';
+@import './secciones/barra_flotante/barra-flotante.scss';
+@import './secciones/seccion_info/seccion-info.scss';
+@import './secciones/seccion_galeria/seccion-galeria.scss';
+@import './secciones/detalle_proyecto/detalle_proyecto.scss';
+@import './secciones/beneficios_promociones/beneficios-promociones.scss';
+@import './secciones/ventas_construccion/ventas_construccion.scss';
+@import './secciones/seccion_modelos/seccion_modelos.scss';
+@import './secciones/modal_multimedia/modal-multimedia-ficha.scss';
+
+@media screen and (min-width:1200px){}
+
+@media screen and (min-width:1400px){
+    @import './1400/barra_flotante/barra-flotante.scss';
+}
+
+@media screen and (min-width:1920px){}
+
+@media screen and (min-width:992px) and (max-width: 1199.9px){
+    @import './992_1199/generales_ficha/generales-ficha.scss';
+    @import './992_1199/barra_flotante/barra-flotante.scss';
+    @import './992_1199/detalle_proyecto/detalle_proyecto.scss';
+}
