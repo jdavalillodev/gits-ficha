@@ -1,0 +1,37 @@
+#seccion-modelos #listado-modelos {
+  margin-bottom: 24px;
+}
+#seccion-modelos .card {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 306px;
+  border-radius: 16px;
+  filter: drop-shadow(0px 0px 10px rgba(17, 17, 17, 0.05)) drop-shadow(0px 2px 4px rgba(17, 17, 17, 0.08));
+}
+#seccion-modelos .card .imagen {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 200px;
+  border-radius: 16px 16px 0 0;
+}
+#seccion-modelos .card .info-card {
+  border-radius: 0 0 16px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  padding: 15px;
+  gap: 4px;
+}
+#seccion-modelos .card .info-card label {
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+}
+#seccion-modelos .card .info-card label:nth-child(1) {
+  font-weight: 500;
+  font-size: 16px;
+}
+#seccion-modelos .card .info-card label:nth-child(3) {
+  font-weight: 500;
+}/*# sourceMappingURL=seccion_modelos.css.map */

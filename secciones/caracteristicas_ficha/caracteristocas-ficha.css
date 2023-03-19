@@ -1,0 +1,10 @@
+#div_caracteristica .tipo_propiedad {
+  display: flex;
+  align-items: center;
+}
+#div_caracteristica .tipo_propiedad .item-car > svg {
+  margin-right: 8px;
+}
+#div_caracteristica #div_superior_caracteristicas {
+  margin-bottom: 30px;
+}/*# sourceMappingURL=caracteristocas-ficha.css.map */

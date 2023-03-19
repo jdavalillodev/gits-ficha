@@ -1,0 +1,38 @@
+.divider {
+  width: 100%;
+  position: relative;
+  border: none;
+  border-top: 1px solid var(--color-neutral-grises-30);
+  margin-top: 24px;
+}
+
+.subtitulo {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  color: var(--color-neutral-negro);
+  margin-bottom: 24px;
+}
+
+.borde-gris {
+  border: 1px solid var(--color-neutral-grises-20);
+  border-radius: 12px;
+  padding: 16px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+
+.mb24 {
+  margin-bottom: 24px;
+}
+
+.mb32 {
+  margin-bottom: 32px;
+}
+
+.ph24 {
+  padding-left: 24px;
+  padding-right: 24px;
+}/*# sourceMappingURL=generales-ficha.css.map */
