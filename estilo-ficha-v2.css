@@ -489,6 +489,18 @@
     object-fit: cover; }
   .modal_multimedia_ficha .seccion_contenido #contenido_fotos .separacion_bottom {
     padding-bottom: 24px; }
+  .modal_multimedia_ficha .seccion_contenido #contenido_mapa .property-detail-map-wrapper {
+    position: relative;
+    height: 434px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 12px;
+    border-radius: 8px; }
+    .modal_multimedia_ficha .seccion_contenido #contenido_mapa .property-detail-map-wrapper .property-detail-map {
+      height: 100%;
+      position: absolute;
+      right: 0;
+      width: 100% !important; }
 
 .modal-content {
   position: relative;

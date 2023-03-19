@@ -41,6 +41,23 @@
                 padding-bottom: 24px;
             }
         }
+
+        #contenido_mapa{
+            .property-detail-map-wrapper{
+                position: relative;
+                height: 434px;
+                overflow: hidden;
+                margin-bottom: 20px;
+                margin-top: 12px;
+                border-radius: 8px;
+                .property-detail-map{
+                    height: 100%;
+                    position: absolute;
+                    right: 0;
+                    width: 100%!important;
+                }
+            }
+        }
     }
 }
 .modal-content{
